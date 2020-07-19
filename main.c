@@ -12,5 +12,6 @@ int main() {
     } else {
         printf("This is lower than 10 \n");
     }
+    printf("Type: ./main to restart \n");
     return 0;
 }
