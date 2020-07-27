@@ -14,11 +14,10 @@ int main() {
         printf("This is lower than 10 \n");
     }
 
-    char question;
-    printf("Would like do run this file again?");
-    scanf("%s", &question);
-    printf("You entered %d\n", question);
-    if (question == 'Yes') {
+    int question;
+    printf("Would like do run this file again? Type 1 for yes, type 0 for no.\n");
+    scanf("%d", &question);
+    if (question == 1) {
         system("./main");
     } else {
         printf("Ok \n");
